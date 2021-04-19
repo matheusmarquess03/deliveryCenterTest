@@ -7,7 +7,7 @@
 ## :information_source: How To Use
 
 ```sh
-git clone ttps://github.com/gustavosantoro9/deliveryCenterTest.git
+git clone https://github.com/matheusmarquess03/deliveryCenterTest
 cd deliveryCenterTest
 use gem to install the required libs "gem install {lib}"
 run it: ruby api.rb

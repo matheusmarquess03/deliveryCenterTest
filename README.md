@@ -7,21 +7,21 @@
 ## :information_source: How To Use
 
 ```sh
-git clone https://github.com/lucaskbr/delivery-center
-cd delivery-center
-cp .env.example .env
-docker-compose up --build -d
-docker-compose run web rails db:setup db:migrate
+https://github.com/gustavosantoro9/deliveryCenterTest.git
+cd deliveryCenterTest
+use gem to install the required libs "gem install {lib}"
+run it: ruby api.rb
+test and run it: rspec
 ```
 
-### :nail_care: [Requirements](https://github.com/lucaskbr/delivery-center/blob/master/REQUIREMENTS.md)
 
-### Routes
+### OPERATION
+It reads a json file and sends its contents.
 
-| METHOD | URI |
-| ------ | ------ | 
-| GET | **/** |
-| POST | **/api/v1/orders** |
+It also saves in a database, the project already comes with a schema of the used db table in this example and you can find it as db.pgsql.
+
+You will need to import it and uses its credencials, that you can find it in db.rb, you may change if you like it.
+
 
 
 ### POST - Body example
@@ -119,16 +119,13 @@ docker-compose run web rails db:setup db:migrate
 
 ## :rocket: Libs
 
-* [Rails](https://rubyonrails.org/)
-* [Dry](https://dry-rb.org/)
-* [Rest Client](https://github.com/rest-client/rest-client)
-* [Fast JSON Api](https://github.com/Netflix/fast_jsonapi)
-
+* [Httparty](https://github.com/jnunemaker/httparty)
+* [Rspec](https://github.com/rspec/rspec)
 
 ## :eyeglasses: Author
 
-* Github: [@lucaskbr](https://github.com/lucaskbr)
-* Linkedin: [@lucaskbr](https://www.linkedin.com/in/lucas-klasa-13891414b/)
+* Github: [@matheusmarquess03](https://github.com/matheusmarquess03)
+* Linkedin: [@matheuscmarques](https://www.linkedin.com/in/matheuscmarques/)
 
 License
 ----

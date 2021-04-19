@@ -15,10 +15,10 @@ test and run it: rspec
 ```
 
 
-### OPERATION
+### Operation
 It reads a json file and sends its contents.
 
-It also saves in a database, the project already comes with a schema of the used db table in this example and you can find it as db.pgsql.
+It also saves in a database, the project already comes with a schema of the used db table in this example and you can find it as db.pgsql.(create the 'register' table in your database)
 
 You will need to import it and uses its credencials, that you can find it in db.rb, you may change if you like it.
 
